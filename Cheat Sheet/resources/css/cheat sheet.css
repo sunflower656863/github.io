@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Gochi Hand';
+    src: url('../fonts/GochiHand-Regular.ttf') format('truetype');
+}
+   
+  table {
+    width: 800px;
+    display: block;
+    border: 5px solid palevioletred;
+    border-spacing: 0;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  th, td {
+    border-top: 1px solid lightpink;
+    color: tan;
+    padding: 5px;
+
+  }
+
+h1,th,td {
+    font-family:'Gochi Hand',sans-serif;
+}
+
+h1 {
+    color: rgb(128, 109, 86);
+    font-weight: bold;
+    text-align: center;
+}
+
+#pusheen-computer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
